@@ -1,7 +1,12 @@
 {
-  "name": "sleep",
-  "version": "1.0.0",
-  "main": "dist/index.js",
+  "name": "@vivid-lapin/symmetrical-umbrella",
+  "version": "0.0.3",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "package.json",
+    "lib/**/*"
+  ],
   "author": "ci7lus <7887955+ci7lus@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
@@ -14,5 +19,9 @@
   "scripts": {
     "build": "tsc",
     "test": "jest"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "git@github.com:vivid-lapin/symmetrical-umbrella.git"
 }
